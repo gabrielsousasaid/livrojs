@@ -1,0 +1,13 @@
+<meta charset="UTF-8">
+
+<script>
+    const valorJantar = Number(prompt('Informe o valor do Jantar: '))
+
+    let taxaGarcom = (valorJantar * 10) / 100
+    let totalPagar = valorJantar + taxaGarcom
+
+    alert(`Taxa do Garçom: R$: ${taxaGarcom.toFixed(2)}\nTotal R$: ${totalPagar.toFixed(2)}`)/*Note que utilizamos o \n para ter
+    quebra de linhas. ToFixed() serve para adiionar casas decimais ao número*/
+
+
+</script>
