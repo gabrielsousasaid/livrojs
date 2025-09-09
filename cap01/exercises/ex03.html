@@ -1,0 +1,10 @@
+<meta charset="UTF-8">
+
+<script>
+    const valorProduto = Number(prompt('Preço do Produto:'))
+
+    const avista = valorProduto - (valorProduto * 10) / 100
+    const aprazo = valorProduto / 3
+
+    alert(`Valor do produto: R$${valorProduto.toFixed(2)}\n Valor à vista com 10% de desconto: R$${avista.toFixed(2)}\n Valor em 3x: R$${aprazo.toFixed(2)}`)
+</script>
