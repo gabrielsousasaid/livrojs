@@ -1,0 +1,8 @@
+CAPÍTULO 01
+
+1.6 Variáveis e constantes:
+
+- Ao declarar uma variável com nome composto, por exemplo: let carroVerde, é indicado usar a letra maiúscula no segundo nome.
+- Diferença de let e const nas novas versões do JS. O let é indicado declarar se caso a variável for ser modificada e o const
+apenas se o valor da variável não for ser alterada.
+- 
