@@ -14,9 +14,9 @@ frm.addEventListener('submit', (e) => {
 
     const notaMedia = (inN1 + inN2) / 2
 
-    if(notaMedia > 7){
+    if(notaMedia >= 7){
         situacao.innerHTML = `<h3>Parabéns ${inNome}, você foi aprovado(a)!!</h3>`
-    } else if (notaMedia < 7){
+    } else {
         situacao.innerHTML = `<h3>Que pena ${inNome}, você foi reprovado(a)!!</h3>`
     }
 
