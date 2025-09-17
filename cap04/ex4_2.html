@@ -12,7 +12,13 @@
 
     <form>
         <p><label for="inNome">Nome:</label><input type="text" id="inNome"></p>
-        <p>Sexo: <input type="radio" name="sexo" id="inMasc"> <label for="inMasc">Masculino</label> <input type="radio" name="sexo" id="inFem"><label for="inFem">Feminino</label></p>
+        <p>Sexo: <input type="radio" name="sexo" id="inMasc"> <label for="inMasc">Masculino</label> <input type="radio" name="sexo" id="inFem" required><label for="inFem">Feminino</label></p>
+        <p><label for="inAltura">Altura:</label> <input type="number" id="inAltura" step="0.01" ></p>
+        <p><input type="submit" value="Calcular Peso Ideal"> <input type="reset" value="Limpar Campos"></p>
     </form>
+
+    <h2 id="resp"></h2>
+
+    <script src="js/ex4_2.js"></script>
 </body>
 </html>
