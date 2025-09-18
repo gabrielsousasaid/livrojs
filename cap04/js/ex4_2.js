@@ -9,13 +9,8 @@ frm.addEventListener('submit', (e) => {
     const altura = Number(frm.inAltura.value)
 
     const sexo = document.getElementsByName('sexo')
-    let pesoIdeal
-
-    if(sexo[0].checked){
-        pesoIdeal = 22 * Math.pow(altura, 2)
-    }else{
-        pesoIdeal = 21 * Math.pow(altura, 2)
-    }
+    const pesoIdeal = sexo[0].checked ? 22 * Math.pow(altura, 2) : 21 * Math.pow(altura, 2)/* Aqui ao invés de utilizar if and 
+    else, utilizamos o operador ternário que deixa o código bem mais limpo */
 
     resp.innerText = `${nome}: Seu peso ideal é: ${pesoIdeal.toFixed(3)} Kg`
 })
