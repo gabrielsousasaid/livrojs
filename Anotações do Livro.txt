@@ -5,4 +5,20 @@ CAPÍTULO 01
 - Ao declarar uma variável com nome composto, por exemplo: let carroVerde, é indicado usar a letra maiúscula no segundo nome.
 - Diferença de let e const nas novas versões do JS. O let é indicado declarar se caso a variável for ser modificada e o const
 apenas se o valor da variável não for ser alterada.
-- 
+
+
+CAPÍTULO 02 
+
+2.4 Métodos QuerySelector() e getElementById()
+
+- O método Queryselector(), não é compatível para todos os navegadores. Para versões muito antigas, antes de 2010 por exemplo,
+o código pode dar problema. Como solução existem os Transpiladores de código. Babel (babeljs.io) é um dos principais 
+softwares desse segmento para Javascript
+
+- !! Utilização da propriedade innerHTML pode ter problemas de vulnerabilidades. O chamado ataque XSS (Cross-site Scripting).
+Depois pesquisar mais sobre isso.
+
+- Na página 52 é apresentada uma tabela das funções matemáticas utilizadas na classe Math, que é extremamente útil para 
+o desenvolvimento dos programas
+
+-
